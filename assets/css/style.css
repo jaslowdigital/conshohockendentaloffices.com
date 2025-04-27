@@ -1,0 +1,105 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Header Styles */
+header {
+  background-color: #008080;
+  padding: 20px 0;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+/* Navigation */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #008080;
+}
+
+/* Section Styles */
+section h2 {
+  color: #008080;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: disc inside;
+}
+
+section p, section li {
+  font-size: 1rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #008080;
+  border-color: #008080;
+}
+
+.btn-primary:hover {
+  background-color: #006666;
+  border-color: #006666;
+}
+
+.btn-outline-primary {
+  color: #008080;
+  border-color: #008080;
+}
+
+.btn-outline-primary:hover {
+  background-color: #008080;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #00cccc;
+}
+
+/* Forms */
+form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  margin-bottom: 15px;
+}
+
+/* Miscellaneous */
+img.img-fluid {
+  max-height: 100px;
+  object-fit: contain;
+}
